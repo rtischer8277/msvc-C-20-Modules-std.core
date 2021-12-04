@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{966B9E2A-F719-4A19-AF61-18012A9A7440}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{64E26FED-D885-4E82-9B9F-D17DC4C389C3}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{249989AC-7F1C-46F0-9232-59E71B74C962}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyFunc.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AMemberFunc.cppm">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExImCoreMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AStruct.ixx" />
+    <ClCompile Include="FuncEnumNum.ixx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AMemberFunc.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
